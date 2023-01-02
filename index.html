@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Book Store web page sample</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page_left_side">
+            <div class="width_fixer">
+                <div class="site_header">
+                    <h3>SHANE BOOK STORE</h3>
+                    <p>Library</p>
+                    <p>Read Now</p>
+                    <p>My Books</p>
+                </div>
+                <div class="book_details">
+                    <p class="book_details--category">Books/Fantasy/<span class="highligted_category">Harry Potter</span></p>
+                    <h1 class="book_details--title">Harry Potter and the Half-Blooded Prince</h1>
+                    <h2 class="book_details--author">J.K.rowling | Hogwarts House Edition </h2>
+                    <div class="book_review_detail">
+                        <div class="book_details--star_container">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <p>5.0<span>(28540 Reviews)</span></p>
+                        </div>
+                        <p class="book_details--plot">As Death Eaters wreak havoc in both Muggle and Wizard worlds, Hogwarts is no longer a safe haven for students. Though Harry (Daniel Radcliffe) suspects there are new dangers lurking within the castle walls, Dumbledore is more intent than ever on preparing the young wizard for the final battle with Voldemort.</p>
+                        <h1 class="book_details--price"><i class="fa fa-usd" aria-hidden="true"></i>286.<span class="small_font">74</span></h1>
+                    </div>
+                </div>
+                <div class="user_selection">
+                    <lable class="house" for="house">House</lable>
+                        <select id="house">
+                            <option value="Godric Gryffindor">Godric Gryffindor</option>
+                            <option value="Salazar Slytherin">Salazar Slytherin</option>
+                            <option value="Rowena Ravenclaw">Rowena Ravenclaw</option>
+                            <option value="Helga Hufflepuff">Helga Hufflepuff</option>
+                        </select>
+                    <lable class="quantity" for="quantity">Quantity</lable>
+                        <select name="qty" id="quantity">
+                            <option value="one">01</option>
+                            <option value="two">02</option>
+                            <option value="three">03</option>
+                            <option value="four">04</option>
+                            <option value="five">05</option>
+                        </select>
+                </div>
+                <div class="buy">
+                    <button type="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</button>
+                    <p><i class="fa fa-heart" aria-hidden="true"></i>Save to wishlist</p>
+                </div>
+            </div>
+        </div>
+        <div class="page_right_side">
+            <input type="text" placeholder="Search"><i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+    </div>
+    <img src="./img/9781526618238.jpg" alt="Harry_Potter_book_cover">
+ 
+<script src="index.js"></script>
+</body>
+</html>
